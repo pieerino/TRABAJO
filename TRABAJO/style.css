@@ -1,5 +1,4 @@
 
-
 body {
     font-family: "Space Grotesk", sans-serif;
     margin: 0;
@@ -28,6 +27,8 @@ footer {
     padding: 5rem;
     color: white;
     margin: 0;
+    position: relative;
+    
 }
 
 header h1 {
@@ -133,5 +134,54 @@ section {
         padding: 2rem;
     }
 }
-
+.formulario {
+    position: absolute;  
+    bottom: 60px;        
+    right: 250px;         
+    width: 260px;        
+    padding: 20px;       
+    border-radius: 8px;  
+    background-color: #201d48;
+    color: #570a0a;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.Problem{
+    bottom: 60px;        
+    right: 250px;         
+    width: 260px;        
+    padding: 20px;  
+}
+input{
+    border-radius: 6px;
+    text-align: center;
+    background-color:white;
+}
+.botons:hover {
+    background-color: #0056b3; 
+}
+.upload-box {
+    border: 2px dashed #e6e3e3;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #e6e3e3;
+    width: 50%;
+    margin: 0 auto;
+}
+.upload-btn {
+    display: inline-block;
+    background-color: #ffd602;
+    color: #000000;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.upload-btn:hover {
+    background-color: #caa21e;
+}
+.file-input {
+    display: none;
+}
 

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -27,29 +28,37 @@
     </header>
 
     <section id="inicio" class="sable">
-        <h2>Hello builder, in this section you can find variables to some sets that we recommend to you.</h2>
+        <h3>Hello builder, in this section you can find variables to some sets that we recommend to you.</h3>
         <div class="image-container">
-            <a href="Trabajo-Final/Sets/Legoimagenes.html"><img src="imagenes/Villain_Thumb_00001.jpg" alt="Imagen 1"></a>
-           <a href="Trabajo-Final/Sets/Legoimagenes2.html"><img src="imagenes/1-(1)_xwamsne.webp" alt="Imagen 2"></a>
-           <a href="Trabajo-Final/Sets/Legoimagne3s.html"><img src="imagenes/awesome-the-lego-movie-poster-characters-5ac6ddhbkse1x0mm.jpg" alt="Imagen 3"></a>
-           <img src="Trabajo-Final/imagenes/Holiday-act-1_Step-Open_3.jpg" alt="Imagen 4">
-           <img src="Trabajo-Final/imagenes/images.jpeg" alt="Imagen 5">
+            <a href="Sets/Ideas-Batman.html"><img src="imagenes/Villain_Thumb_00001.jpg" alt="Imagen 1"></a>
+           <a href="Sets/Ideas-City.html"><img src="imagenes/1-(1)_xwamsne.webp" alt="Imagen 2"></a>
+           <a href="Sets/Ideas-Ninjago.html"><img src="imagenes/lego-wide-1600x900.jpg" alt="Imagen 3"></a>
+           <a href="Sets/Ideas-SpeedChampions.html"><img src="imagenes/images (1).jpeg" alt="Imagen 4"></a>
+           <a href="Sets/Ideas-StarWars.html"><img src="imagenes/images (2).jpeg" alt="Imagen 5"> </a>
         </div>
-        </div>
-        </div>
+        
+        
     </section>
 
     <section id="sobre-mi" class="sablee">
-        <h2>Proyects for you.</h2>
+        <h3>Upload your project.</h3>
+        <div class="upload-box">
+            <form action="subir_archivo.php" method="post" enctype="multipart/form-data">
+                <label for="file-upload" class="upload-btn">Select your set instructions</label>
+                <input type="file" id="file-upload" name="archivo" class="file-input" accept=".pdf" required>
+                <button type="submit" class="upload-btn">Upload PDF</button>
+            </form>
+        </div>
     </section>
     
     <section id="contacto" class="sableA">
-        <h2>These are the accepted set types.</h2>
+        <h3>These are the accepted set types.</h3>
         <div class="image-container">
             <img src="imagenes/Lego-Batman-Emblem.png" alt="Imagen 1">
             <img src="imagenes/LEGO_Logo.png" alt="Imagen 2">
             <img src="imagenes/NINJAS.png" alt="Imagen 3">
             <img src="imagenes/d800d1972b307329d75042eeada9a030.png" alt="Imagen 4">
+            <img src="imagenes/image-removebg-preview__1_-removebg-preview.png" alt="Imagen 5">
         </div>
     </section>
 
@@ -58,10 +67,19 @@
     </section>
 
     <footer class="pies">
-        <h2>Support</h2><br>
-        <h4>Contact support if you have any questions or problems.</h4>
+        <form class="formulario" action="https://formspree.io/f/myzygkyd" method="post">
+            <h7>
+                <input id="text" type="text" placeholder="Name" name="Name" required><br>
+                <input id="email" type="email" placeholder="e-mail" name="e-mail"required><br>
+                <input id="Problem" type="text" placeholder="Tell us your problem" name="Problem"required><br>
+                <input class="botons" type="submit" value="Send">
+            </h7>
+        </form>
+        <h5>Support</h5><br>
+        <h6>Contact support if you have any questions or problems or fill out the form describing your problem.</h6>
         <br>
-        <h4 class="gmail">helpforcreative@gmail.com</h4>
+        <h6 class="gmail">helpforcreative@gmail.com</h6>
     </footer>
 </body>
 </html>
+
