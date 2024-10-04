@@ -1,0 +1,13 @@
+body {
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h1, h2, p {
+    font-family: "Space Grotesk", sans-serif;
+}
+h2, h3{
+    color:  #ffd602
+}
