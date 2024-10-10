@@ -1,0 +1,277 @@
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h1, h2, p {
+    font-family: "Space Grotesk", sans-serif;
+}
+h4{
+    text-align: left;
+}
+h2, h3 {
+    color: #ffd602;
+}
+.form-container {
+    position: relative; 
+    right: 0;           
+    bottom: 0;          
+    padding: 20px;      
+  }
+  
+  form {
+    background-color: white; 
+    padding: 20px;           
+    border-radius: 10px;      
+    
+  }
+  
+  input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: rgb(20, 99, 190);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+.gmail {
+    text-decoration: underline;
+}
+footer{
+    clear: both;
+}
+
+
+header {
+    background-color: #ffd602;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    color: black;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #201d48;
+    padding: 5rem;
+    color: white;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+section {
+    padding: 5rem;
+    text-align: center;
+    color: white;
+}
+
+.sable, .sableA, .sableB {
+    background-color: #ffffff;
+}
+
+/* Contenedores de imágenes */
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #e6e3e3;
+    border-radius: 5px;
+}
+
+.image-container img, .imagenes img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover, .imagenes img:hover {
+    transform: scale(1.1);
+}
+
+.imagen {
+    border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    section {
+        padding: 3rem;
+    }
+
+    .image-container img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        margin: 0.3rem 0;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .image-container img {
+        width: 100px;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+}
+
+
+.formulario {
+    position: absolute;
+    bottom: 90px;
+    right: 250px;
+    width: 260px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #201d48;
+    color: #570a0a;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Problem {
+    bottom: 60px;
+    right: 250px;
+    width: 260px;
+    padding: 20px;
+}
+
+input {
+    border-radius: 6px;
+    text-align: center;
+    background-color: white;
+}
+
+.botons:hover {
+    background-color: #0056b3;
+}
+
+
+.legos {
+    color: white;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imagen {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.imagen:hover {
+    transform: scale(1.05);
+}
+
+
+.galeria-fila {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e6e3e3;
+    padding: 20px;
+}
+
+
+.image-grid-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    background-color: #e6e3e3;
+    padding: 10px;
+    border-radius: 5px;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.column img {
+    width: 100%;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.column img:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px) {
+    .image-grid-section {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+}
+
