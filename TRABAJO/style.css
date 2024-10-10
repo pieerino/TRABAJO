@@ -1,0 +1,268 @@
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h1, h2, p {
+    font-family: "Space Grotesk", sans-serif;
+}
+h2, h3{
+    color:  #ffd602
+}
+.gmail {
+    text-decoration: underline;
+}
+
+header {
+    background-color:  #ffd602;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #201d48;
+    padding: 5rem;
+    color: white;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+header h1 {
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 5rem;
+    text-align: center;
+    color: white;
+}
+
+.sable {
+    background-color: #ffffff;
+}
+
+.sableA {
+    background-color: #ffffff;
+}
+
+.sableB {
+    background-color: #ffffff;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #e6e3e3;
+    border-radius: 5px;
+}
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    
+}
+.imagenes{
+    width: 200px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #e6e3e3;
+    border-radius: 5px;
+}
+
+
+.imagen{
+    border-radius: 10px;
+}
+
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    section {
+        padding: 3rem;
+    }
+
+    .image-container img {
+        width: 150px;
+    }
+}
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul li {
+        margin: 0.3rem 0;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .image-container img {
+        width: 100px;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+}
+.formulario {
+    position: absolute;  
+    bottom: 90px;        
+    right: 250px;         
+    width: 260px;        
+    padding: 20px;       
+    border-radius: 8px;  
+    background-color: #201d48;
+    color: #570a0a;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.Problem{
+    bottom: 60px;        
+    right: 250px;         
+    width: 260px;        
+    padding: 20px;  
+}
+input{
+    border-radius: 6px;
+    text-align: center;
+    background-color:white;
+}
+.botons:hover {
+    background-color: #0056b3; 
+}
+.upload-box {
+    border: 2px dashed #e6e3e3;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #e6e3e3;
+    width: 50%;
+    margin: 0 auto;
+}
+.upload-btn {
+    display: inline-block;
+    background-color: #ffd602;
+    color: #000000;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.upload-btn:hover {
+    background-color: #caa21e;
+}
+.file-input {
+    display: none;
+}
+.legos{
+    color: white;
+}
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .imagen {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .imagen:hover {
+    transform: scale(1.05);
+  }
+  .galeria-fila {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #e6e3e3;
+    padding: 20px;
+}
+
+.image-grid-section {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+}
+
+.column {
+    background-color: #e6e3e3; 
+    padding: 10px;
+    border-radius: 5px; 
+    width: 16%; 
+    display: flex;
+    flex-direction: column;
+    gap: 18px; 
+}
+
+.column img {
+    width: 100%;
+    border-radius: 5px; 
+    transition: transform 0.3s ease; 
+}
+
+.column img:hover {
+    transform: scale(1.1); 
+}
+
+@media (max-width: 768px) {
+    .image-grid-section {
+        flex-direction: column; 
+    }
+
+    .column {
+        width: 100%; 
+    }
+}
