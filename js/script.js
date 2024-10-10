@@ -4,3 +4,4 @@ xhttp.onreadystatechange = function() {
     document.getElementById("miElemento").innerHTML = this.responseText;
   }
 };
+
